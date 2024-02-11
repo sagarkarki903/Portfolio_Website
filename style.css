@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    background-color: #000000;
+
+}
+
+.main{
+    /* background-color: indianred; */
+    height: 100vh;
+}
+
+.header{
+
+    /* background-color: purple; */
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-content{
+    /* background-color: cyan; */
+    width: 93vw;
+    height: 95vh;
+    /* display: flex; */
+
+}
+
+.nav{
+    /* background-color: pink; */
+    height: 7%;
+    display: flex;
+
+    align-items: center;
+}
+.name-logo{
+
+    /* background-color:green ; */
+    width: 13%;
+    height: 85%;
+
+} 
+
+.links{
+    /* background-color: lightcoral; */
+    margin-left: 60%;
+    width: 22%;
+    font-size: 20px;
+  
+}
+
+.links ul li{
+    list-style: none;
+    display: inline-block;
+   
+    
+}
+
+.links ul li a{
+    text-decoration: none;    
+    padding: 0 20px;
+    color: white;
+}
+
+
+.intro-header{
+    /* background-color: grey; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    justify-content: space-between;
+
+
+}
+
+.intro{
+    /* background-color:bisque; */
+    height: 60%;
+    width: 40%;
+    /* font-weight: bold; */
+
+}
+
+#info-curr{
+    font-size: 25px;
+}
+
+.photu{
+    margin-top: 150px; /*yaad gar....................................*/
+    width: 55%;
+    height: 75%;
+    /* background-color: antiquewhite; */
+}
+
+.imageu{
+    /* background-color: cornflowerblue; */
+    width: 80%;
+    height: 100%;
+    background-image: url("img1.JPG");
+    background-size:cover;
+
+}
+
+.contact-linkedin{
+    background-color: #0077B5; /* LinkedIn blue */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+    
+
+.contact-email{
+        background-color: #ea4335; /* Gmail red */
+        color: #ffffff; /* White text */
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+
+    }
